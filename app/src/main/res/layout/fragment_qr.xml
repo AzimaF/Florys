@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.qr.QRFragment">
+
+    <com.budiyev.android.codescanner.CodeScannerView
+        android:id="@+id/scanner"
+        android:layout_width="wrap_content"
+        android:layout_height="450dp"
+        app:autoFocusButtonVisible="true"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        app:cardCornerRadius="30dp"
+        app:cardBackgroundColor="@color/lightGrey"
+        app:cardElevation="4dp">
+
+        <LinearLayout
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="9dp">
+
+            <ImageView
+                android:id="@+id/btn_qr"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/galeri_2"
+                android:layout_marginLeft="55dp"/>
+
+            <TextView
+                android:id="@+id/outputQR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:text="Result will be here"
+                android:textSize="20sp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:id="@+id/btn_showinfo"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/text_getinfo"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/lightGreen"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:cornerRadius="20dp"/>
+
+</LinearLayout>

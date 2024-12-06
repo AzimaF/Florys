@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">Florys</string>
+    <string name="title_home">Home</string>
+    <string name="water">Water</string>
+    <string name="title_dashboard">Akun</string>
+    <string name="title_qr">QR</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <!-- Strings for dropdown register-->
+    <string-array name="options_array">
+        <item>Food Producer</item>
+        <item>Distributor</item>
+        <item>Seller</item>
+        <item>Customer</item>
+    </string-array>
+
+    <string name="florys">FLORYS</string>
+
+    <!-- Strings for product_catalog_item.xml  -->
+    <string name="product_catalog_image">Product Catalog Image</string>
+    <string name="product_catalog_title">Product Catalog Name</string>
+    <string name="product_catalog_category">Category</string>
+    <string name="product_catalog_description">Description, Eros sociosqu ex dolor aliquet condimentum pharetra lobortis suscipit metus ornare.</string>
+    <string name="product_catalog_national_price">National Price</string>
+    <string name="product_catalog_national_price_value">IDR 15.000</string>
+    <string name="product_catalog_prediction_price">Prediction Price</string>
+    <string name="product_catalog_prediction_price_value">IDR 15.500</string>
+    <string name="product_catalog_prediction_date">(next week)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hi">Hi</string>
+    <string name="search">Search</string>
+    <string name="know_about_">Know about Flowers</string>
+    <string name="recent_arti">Recent Articles</string>
+
+    <string name="testA">Customer</string>
+    <string name="testB">Non Customer</string>
+
+    <!-- Strings for product_catalog_item.xml  -->
+    <string name="text_profile">Profile</string>
+    <string name="text_product_management">About</string>
+    <string name="text_logout">Logout</string>
+    <string name="edit_photo_profile">Edit Photo Profile</string>
+
+    <string name="logout">Logout</string>
+
+    <string name="user_history">About Application</string>
+    <string name="about_app">Florys merupakan sebuah aplikasi analisis kesehatan tanaman hias
+    yang dapat memberikan hasil deteksi kesehatan tanaman pengguna serta memberikan saran penyiraman dan perawatan
+    terbaik dalam perkembangannya.</string>
+
+    <!-- Strings for product_history_item.xml  -->
+    <string name="text_product_name">Product Name</string>
+    <string name="text_producer">Producer :</string>
+    <string name="text_producer_name">Producer A</string>
+    <string name="text_distributor">Distributor :</string>
+    <string name="text_distributor_name">Distributor A</string>
+    <string name="text_seller">Seller :</string>
+    <string name="text_seller_name">Seller A</string>
+    <string name="text_status">Status</string>
+
+    <!-- Strings for activity_product_item_detail.xml  -->
+    <string name="item_name">Item Name</string>
+    <string name="item_email">Item Id: </string>
+    <string name="item_price">IDR 15.000</string>
+    <string name="item_national_price">Avg. National Price</string>
+    <string name="item_national_price_value">IDR 15.000</string>
+    <string name="item_prediction_price">Prediction Price</string>
+    <string name="item_prediction_price_value">IDR 15.000</string>
+    <string name="item_producer">Producer</string>
+    <string name="item_producer_value">Producer A</string>
+    <string name="item_harvest_date">Harvest Date</string>
+    <string name="item_harvest_date_value">2023-12-31</string>
+    <string name="item_distributor">Distributor</string>
+    <string name="item_distributor_value">Distributor A</string>
+    <string name="item_seller">Seller</string>
+    <string name="item_seller_value">Seller A</string>
+    <string name="item_desc">Description</string>
+    <string name="item_desc_value">Description, Eros sociosqu ex dolor aliquet condimentum pharetra lobortis suscipit metus ornare.</string>
+
+    <!-- Strings for activity_add_product.xml  -->
+    <string name="add_title">Add New Product</string>
+    <string name="add_catalog">Choose Product</string>
+    <string name="add_desc">Description</string>
+    <string name="add_price">Price</string>
+    <string name="add_harvest_date">Harvest Date</string>
+    <string name="add_harvest_place">Harvest Place</string>
+    <string name="add_submit">Submit</string>
+    <string name="title_chat">Chat</string>
+
+    <string name="text_showqr">Show QR</string>
+    <string name="text_edit">Edit</string>
+
+    <string name="text_user_price">(user price)</string>
+
+    <string name="text_getinfo">Detection</string>
+
+    <!-- sign in -->
+    <string name="sign_up">Sign up</string>
+    <string name="username">User Name</string>
+    <string name="enter_email_hint">Masukkan email Anda</string>
+    <string name="enter_password_hint">Masukkan kata sandi Anda</string>
+    <string name="re_enter_password_hint">Masukkan ulang kata sandi Anda</string>
+    <string name="enter_email">Email</string>
+    <string name="enter_passw">Password</string>
+    <string name="enter_confirm">Confirm Password</string>
+    <string name="re_enter_pa">Re-enter Password</string>
+    <string name="next">Sign In</string>
+    <string name="already_hav">Already have an account?</string>
+
+
+</resources>
